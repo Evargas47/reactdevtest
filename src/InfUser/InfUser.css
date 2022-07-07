@@ -1,0 +1,65 @@
+.container {
+  background-color: #94e7ce;
+  display: flex;
+  padding: 10px;
+  min-width: 400px;
+}
+
+.container img,
+.container video {
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.container > div {
+  text-align: left;
+  width: 100%;
+}
+
+.container .userInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .removeBtn {
+  color: red;
+  font-size: 0.8rem;
+  cursor: pointer;
+  height: 30px;
+  /* padding: 10px; */
+}
+
+.container .viewMoreBtn {
+  color: rgb(104, 29, 94);
+  font-size: 0.8rem;
+  cursor: pointer;
+  height: 30px;
+  /* padding: 10px; */
+}
+.container .editBtn {
+  color: rgba(235, 152, 18, 0.797);
+  font-size: 0.8rem;
+  cursor: pointer;
+  height: 30px;
+  /* padding: 10px; */
+}
+
+.container .name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.container .email {
+  font-style: italic;
+  color: #222222;
+}
+
+.container .gender {
+  color: #c06565;
+}
